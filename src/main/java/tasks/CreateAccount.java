@@ -18,7 +18,7 @@ public class CreateAccount implements Task {
         actor.attemptsTo(
                 Click.on(LOGIN_BTN),
                 Click.on(CREATE_ACCOUNT_BTN),
-                Enter.theValue("1014300826").into(DOCUMENT_CODE)
+                Enter.theValue("1014300115").into(DOCUMENT_CODE)
         );
     }
 
