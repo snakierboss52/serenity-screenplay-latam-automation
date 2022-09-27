@@ -11,8 +11,6 @@ import java.time.LocalDate;
 @Data
 public class CreateAccount {
 
-    private String country;
-    private String documentType;
     private int identification;
     private String name;
     private String lastName;
