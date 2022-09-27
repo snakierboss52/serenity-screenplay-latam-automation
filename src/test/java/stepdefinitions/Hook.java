@@ -4,9 +4,6 @@ import io.cucumber.java.Before;
 import navigation.NavigateTo;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
-
-import net.serenitybdd.screenplay.actions.Open;
-import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getProxiedDriver;
@@ -26,7 +23,7 @@ public class Hook {
                 BrowseTheWeb.with(driver)
         );
         user.wasAbleTo(
-                NavigateTo.LatamPage()
+                NavigateTo.latamPage()
         );
     }
 }
