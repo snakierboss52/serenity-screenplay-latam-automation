@@ -1,4 +1,4 @@
-package dtos;
+package models;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class CreateAccountDTO {
+public class CreateAccount {
 
     private String country;
     private String documentType;
