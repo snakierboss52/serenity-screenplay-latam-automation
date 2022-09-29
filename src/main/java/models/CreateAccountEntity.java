@@ -4,17 +4,15 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.LocalDate;
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class CreateAccount {
+public class CreateAccountEntity {
 
-    private int identification;
+    private String identification;
     private String name;
     private String lastName;
-    private LocalDate birthDate;
+    private String birthDate;
     private String genre;
     private String phoneNumber;
     private String email;

@@ -1,13 +1,17 @@
 package stepdefinitions;
 
 import io.cucumber.java.Before;
+
 import navigation.NavigateTo;
+
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.WhenPageOpens;
+
 import org.openqa.selenium.WebDriver;
 
 import static net.thucydides.core.webdriver.ThucydidesWebDriverSupport.getProxiedDriver;
+
 import static utils.DriverUtils.getDriver;
 import static utils.DriverUtils.setDriver;
 
@@ -28,7 +32,6 @@ public class Hook {
         user.wasAbleTo(
                 NavigateTo.latamPage()
         );
-
     }
 
     @WhenPageOpens
