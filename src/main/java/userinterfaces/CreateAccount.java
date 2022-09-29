@@ -28,4 +28,12 @@ public class CreateAccount {
     public static final Target FORM_DOCUMENT_CODE = Target
             .the("Insert Document Identification")
             .located(By.id("documentCode"));
+
+    public static final Target FORM_BIRTH_DATE = Target
+            .the("Insert birth date")
+            .located(By.id("birthDate"));
+
+    public static final Target FORM_PHONE_NUMBER = Target
+            .the("Insert Phone Number")
+            .located(By.id("contactCode"));
 }
